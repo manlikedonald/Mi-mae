@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #fff;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1500px){
+  .navBarPara{
+    font-size: 12px;
+  }
+  .AdImage{
+    display: block;
+    width: 750px;
+    height: 400px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+  .navBarPara{
+    display: block;
+    position: relative;
+    font-size: 8px;
+  }
+  .AdImage{
+    display: block;
+    width: 490px;
+    height: 400px;
+    float: left;
+  }
+  .easySteps{
+    margin-top: 320px;
+  }
+  .easyImage{
+    height: 350px;
+    width: 350px;
+  }
+  .testimonial{
+    width: 100%;
+  }
+  .iPhone{
+    width: 500px;
+    height: 600px;
+  }
+}
+
+@media all and (min-width: 425px) and (max-width: 767px){
+  .navRow{
+    display: block;
+    position: relative;
+    font-size: 10px;
+    background-color: #7A30E3;
+  }
+  .AdImage{
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: -20px;
+    font-size-adjust: 3px;
+  }
+  .easySteps{
+    margin-top: 320px;
+  }
+  .easyImage{
+    height: 400px;
+    width: 400px;
+  }
+  .amplify{
+    margin-top: 200px;
+  }
+  .testimonial{
+    margin-top: 600px;
+  }
+  .insightIcons{
+    display: none;
+  }
+  .iPhone{
+    display: none;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 424px){
+  .navRow{
+    display: block;
+    position: relative;
+    font-size: 9px;
+    background-color: #7A30E3;
+  }
+  .AdImage{
+    display: none;
+  }
+  .easySteps{
+    margin-top: 320px;
+  }
+  .easyImage{
+    height: 350px;
+    width: 350px;
+  }
+  .amplify{
+    margin-top: 200px;
+  }
+  .testimonial{
+    margin-top: 600px;
+  }
+  .insightIcons{
+    display: none;
+  }
+  .iPhone{
+    display: none;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 374px){
+  .navRow{
+    display: block;
+    position: relative;
+    font-size: 10px;
+    background-color: #7A30E3;
+  }
+  .AdImage{
+    display: none;
+  }
+  .easySteps{
+    margin-top: 320px;
+  }
+  .easyImage{
+    height: 300px;
+    width: 300px;
+  }
+  .amplify{
+    margin-top: 250px;
+  }
+  .testimonial{
+    margin-top: 600px;
+  }
+  .insights{
+    height: 350px;
+  }
+  .insightIcons{
+    display: none;
+  }
+  .iPhone{
+    display: none;
+  }
+}
+
+.BudgetImage{
+  border: 1px #B9F4BC solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: #B9F4BC;
+}
+
+.checkIcon{
+  border: 1px solid #B9F4BC;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.amplifyReach{
+  margin-top: 150px;
+}
+
+.testimonials{
+  margin-top: 70px;
+}
+.insight{
+  margin-top: 150px;
+}
+
+.insightImages{
+  position: absolute;
+  left: -70px;
+  top: 5px;
+  z-index: -2;
+}
