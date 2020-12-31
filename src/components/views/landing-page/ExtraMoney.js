@@ -1,7 +1,7 @@
 import React from 'react'
-import img from '../assets/images/iPhone.png'
-import img1 from '../assets/images/AppleStore.png'
-import img2 from '../assets/images/GooglePlay.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/iPhone.png'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/AppleStore.png'
+import img2 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/GooglePlay.png'
 
 function ExtraMoney() {
     return (

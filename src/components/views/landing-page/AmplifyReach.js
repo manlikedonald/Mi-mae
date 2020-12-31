@@ -1,10 +1,11 @@
 import React from 'react'
-import img from '../assets/images/play.png'
-import img1 from '../assets/images/reference.png'
-import img2 from '../assets/images/mail.png'
-import img3 from '../assets/images/graph.png'
-import img4 from '../assets/images/heart.png'
-import img5 from '../assets/images/automatic.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/play.png'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/reference.png'
+import img2 from '//Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/mail.png'
+import img3 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/graph.png'
+import img4 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/heart.png'
+import img5 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/automatic.png'
+
 
 function AmplifyReach() {
     return (

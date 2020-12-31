@@ -1,6 +1,6 @@
 import React from 'react'
-import img from '../assets/images/insight.png'
-import img1 from '../assets/images/insights.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/insight.png'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/insights.png'
 
 function Insights() {
     return (

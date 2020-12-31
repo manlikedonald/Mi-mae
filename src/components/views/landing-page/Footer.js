@@ -1,6 +1,7 @@
 import React from 'react'
-import img from '../assets/images/mimae.png'
-import img1 from '../assets/images/mi-mae.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/mimae.png'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/mi-mae.png'
+
 
 function Footer() {
     return (

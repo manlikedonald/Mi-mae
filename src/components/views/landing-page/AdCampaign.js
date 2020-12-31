@@ -1,10 +1,10 @@
 import React from 'react'
-import img from '../assets/images/logo.svg'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/logo.svg'
 
 function AdCampaign() {
     return (
-        <div style= {{backgroundColor: '#7A30E3', color: '#fff', height: '550px'}}>
-            <div className='container'>
+        <div style= {{backgroundColor: '#7A30E3', color: '#fff', height: '700px', border: '1px solid #7A30E3'}}>
+            <div className='container' style={{marginTop: '150px'}}>
                 <div className= 'row'>
                     <div className= 'col-md-4'>
                         <h1>Smart Advertising</h1>

@@ -1,27 +1,41 @@
 import './App.css';
-import AdCampaign from './components/AdCampaign';
-import NavBar from './components/NavBar';
-import BudgetCampaign from './components/BudgetCampaign';
-import EasySteps from './components/EasySteps';
-import AmplifyReach from './components/AmplifyReach';
-import Testimonials from './components/Testimonials';
-import Insights from './components/Insights';
-import ExtraMoney from './components/ExtraMoney';
-import Footer from './components/Footer';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import AdCampaign from './components/views/landing-page/AdCampaign';
+import NavBar from './components/views/landing-page/NavBar';
+import BudgetCampaign from './components/views/landing-page/BudgetCampaign';
+import EasySteps from './components/views/landing-page/EasySteps';
+import AmplifyReach from './components/views/landing-page/AmplifyReach';
+import Testimonials from './components/views/landing-page/Testimonials';
+import Insights from './components/views/landing-page/Insights';
+import ExtraMoney from './components/views/landing-page/ExtraMoney';
+import Footer from './components/views/landing-page/Footer';
+import Signup from './components/views/signup/Signup';
+import Login from './components/views/login/Login';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <AdCampaign />
-      <BudgetCampaign />
-      <EasySteps />
-      <AmplifyReach />
-      <Testimonials />
-      <Insights />
-      <ExtraMoney />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route path= '/' exact component= {props => (
+            <div>
+              <AdCampaign />
+              <BudgetCampaign />
+              <EasySteps />
+              <AmplifyReach />
+              <Testimonials />
+              <Insights />
+              <ExtraMoney />
+              <Footer />
+            </div>
+          )} />
+          <Route path= '/login' exact component= {Login} />
+          <Route path= '/signup' exact component= {Signup} />
+        </Switch>
+        
+      </div>
+    </Router>
   );
 }
 

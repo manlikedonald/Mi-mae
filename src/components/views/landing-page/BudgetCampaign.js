@@ -1,7 +1,7 @@
 import React from 'react'
-import img from '../assets/images/logo2.svg'
-import img1 from '../assets/images/logo3.svg'
-import img2 from '../assets/images/logo4.svg'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/logo2.svg'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/logo3.svg'
+import img2 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/logo4.svg'
 
 function BudgetCampaign() {
     return (

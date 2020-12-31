@@ -1,6 +1,6 @@
 import React from 'react'
-import img from '../assets/images/howitworks@2x.svg'
-import img1 from '../assets/images/check.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/howitworks@2x.svg'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/check.png'
 
 function EasySteps() {
     return (

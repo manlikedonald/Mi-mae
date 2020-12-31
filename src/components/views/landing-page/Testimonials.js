@@ -1,7 +1,7 @@
 import React from 'react'
-import img from '../assets/images/lady.png'
-import img1 from '../assets/images/chevron-left.png'
-import img2 from '../assets/images/chevron-right.png'
+import img from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/lady.png'
+import img1 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/chevron-left.png'
+import img2 from '/Users/donald/Documents/Codes/mimae/src/assets/images/landingPage/chevron-right.png'
 
 function Testimonials() {
     return (

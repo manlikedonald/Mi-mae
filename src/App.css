@@ -184,3 +184,26 @@ a:hover{
   top: 5px;
   z-index: -2;
 }
+
+.signUpInput{
+  margin: 10px auto;
+  width: 355px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #ECECEC;
+}
+
+.emailInput{
+  width: 730px;
+  margin: 10px 40px;
+  height: 40px;
+  outline: none;
+}
+
+.loginInput{
+  width: 85%;
+  margin: 10px 40px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #ECECEC;
+}
