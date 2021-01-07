@@ -36,8 +36,8 @@ function App() {
               <Dashboard />
             </div>
           )} />
-          <Route path= '/login' exact component= {Login} />
-          <Route path= '/signup' exact component= {Signup} />
+          <Route path= '/login' component= {Login} />
+          <Route path= '/signup' component= {Signup} />
         </Switch>
         
       </div>
