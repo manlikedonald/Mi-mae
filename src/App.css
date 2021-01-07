@@ -49,6 +49,25 @@ a:hover{
     width: 500px;
     height: 600px;
   }
+  .signUpSocialMediaButton{
+    font-size: 9px;
+  }
+  .Navbar{
+    margin-top: 250px;
+  }
+  .helloBarima{
+    font-size: 8px;
+  }
+  .helloBarimaMimae{
+    font-size: 22px;
+  }
+  .helloBarimaImg{
+    width: 15px;
+    height: 15px;
+  }
+  .spotify{
+    display: none;
+  }
 }
 
 @media all and (min-width: 425px) and (max-width: 767px){
@@ -85,6 +104,21 @@ a:hover{
   .iPhone{
     display: none;
   }
+  .Navbar{
+    margin-top: 250px;
+  }
+  .helloBarima{
+    font-size: 10px;
+  }
+  .helloBarimaMimae{
+    font-size: 20px;
+  }
+  .helloBarimaImg{
+    display: none;
+  }
+  .spotify{
+    display: none;
+  }
 }
 
 @media all and (min-width: 375px) and (max-width: 424px){
@@ -114,6 +148,21 @@ a:hover{
     display: none;
   }
   .iPhone{
+    display: none;
+  }
+  .Navbar{
+    margin-top: 250px;
+  }
+  .helloBarima{
+    font-size: 9px;
+  }
+  .helloBarimaMimae{
+    font-size: 17px;
+  }
+  .helloBarimaImg{
+    display: none;
+  }
+  .spotify{
     display: none;
   }
 }
@@ -148,6 +197,24 @@ a:hover{
     display: none;
   }
   .iPhone{
+    display: none;
+  }
+  .signUpSocialMediaButton{
+    font-size: 7px;
+  }
+  .Navbar{
+    margin-top: 250px;
+  }
+  .helloBarima{
+    font-size: 8px;
+  }
+  .helloBarimaMimae{
+    font-size: 15px;
+  }
+  .helloBarimaImg{
+    display: none;
+  }
+  .spotify{
     display: none;
   }
 }
@@ -186,24 +253,38 @@ a:hover{
 }
 
 .signUpInput{
-  margin: 10px auto;
-  width: 355px;
   height: 40px;
   outline: none;
   border: 1px solid #ECECEC;
+  width: 49%;
+}
+
+.signUpButton{
+  background-color: #7A30E3; 
+  color: #fff; 
+  border: 1px solid #7A30E3;  
+  width: 81%; 
+  margin: 10px 10%; 
+  cursor: pointer; 
+  height: 40px
 }
 
 .emailInput{
-  width: 730px;
-  margin: 10px 40px;
+  width: 85%;
+  margin: 10px 8%;
   height: 40px;
   outline: none;
 }
 
 .loginInput{
   width: 85%;
-  margin: 10px 40px;
+  margin: 10px 8%;
   height: 40px;
   outline: none;
   border: 1px solid #ECECEC;
+}
+
+.loginCopyInput{
+  width: 90%;
+  height: 40px;
 }

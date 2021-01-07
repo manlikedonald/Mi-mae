@@ -11,6 +11,9 @@ import ExtraMoney from './components/views/landing-page/ExtraMoney';
 import Footer from './components/views/landing-page/Footer';
 import Signup from './components/views/signup/Signup';
 import Login from './components/views/login/Login';
+import LoginCopy from './components/views/login/LoginCopy';
+import Navbar from './components/views/dashboard/Navbar';
+import Dashboard from './components/views/dashboard/Dashboard';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
               <Insights />
               <ExtraMoney />
               <Footer />
+              <LoginCopy />
+              <Navbar />
+              <Dashboard />
             </div>
           )} />
           <Route path= '/login' exact component= {Login} />
