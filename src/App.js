@@ -14,6 +14,7 @@ import Login from './components/views/login/Login';
 import LoginCopy from './components/views/login/LoginCopy';
 import Navbar from './components/views/dashboard/Navbar';
 import Dashboard from './components/views/dashboard/Dashboard';
+import DashboardTwo from './components/views/dashboard/DashboardTwo';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
               <LoginCopy />
               <Navbar />
               <Dashboard />
+              <DashboardTwo />
             </div>
           )} />
           <Route path= '/login' component= {Login} />
