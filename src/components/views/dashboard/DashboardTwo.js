@@ -7,6 +7,11 @@ import img4 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboar
 import img5 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/icon/target.png'
 import img6 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/icon/message-square.png'
 import img7 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/icon/settings.png'
+import img8 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/campaign.png'
+import img9 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/launch.png'
+import img0 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/studio.png'
+import img01 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/trophy.png'
+import img02 from '/Users/donald/Documents/Codes/mimae/src/assets/images/dashboard/upcoming.png'
 
 
 function DashboardTwo() {
@@ -40,10 +45,33 @@ function DashboardTwo() {
                     <p style={{color: '#828282', fontSize: '9px', marginTop: '-10px'}}>TOTAL IMPRESSIONS</p>
                 </div>
                 <div style={{float: 'right', width: '25%', border: '1px solid #ECECEC', height: '80px', margin: '5px auto', borderBottom: 'none', borderTop: 'none', borderRight: 'none'}} className='text-center'>
-                    <h1 style={{color: '#003152', fontSize: '40px'}}><span style={{marginTop: '-40px'}}><sup style={{color: '#77D426', fontSize: '9px'}}>CFA</sup></span>53,653<sub style={{fontSize: '9px'}}>.97</sub></h1>
+                    <h1 style={{color: '#003152', fontSize: '40px'}}><sup style={{color: '#77D426', fontSize: '9px', marginRight: '5px'}}><b>CFA</b></sup>53,653<sub style={{fontSize: '9px'}}>.97</sub></h1>
                     <br />
                     <p style={{color: '#828282', fontSize: '9px', marginTop: '-10px'}}>TOTAL BUDGET</p>
                 </div>
+                <div style={{float: 'right', width: '25%', border: '1px solid #ECECEC', height: '80px', margin: '5px auto', borderBottom: 'none', borderTop: 'none', borderRight: 'none', borderLeft: 'none'}} className='text-center'>
+                    <h1 style={{color: '#003152', fontSize: '40px'}}>37</h1>
+                    <br />
+                    <p style={{color: '#828282', fontSize: '9px', marginTop: '-10px'}}>TOTAL CAMPAIGNS</p>
+                </div>
+                <br />
+                <img src={img8} style={{width: '150px', marginTop: '30px'}} />
+                <hr style={{marginTop: '20px'}} />
+                <div className='container'>
+                    <div className= 'row' style={{margin: '20px 0px'}}>
+                        <div className='col-md-4'>
+                            <img src={img9} style={{width: '350px'}} />
+                        </div>
+                        <div className='col-md-4'>
+                            <img src={img0} style={{width: '350px'}} />
+                        </div>
+                        <div className='col-md-4'>
+                            <img src={img01} style={{width: '350px'}} />
+                        </div>
+                    </div>
+                </div>
+                <img src={img02} style={{width: '150px', marginTop: '50px'}} />
+                <hr style={{marginTop: '20px'}} />
             </div>
             <div style={{width: '15%', height: '100%', border: '1px solid #F5F5F5', margin: '0'}}>
                 <div className= 'container' style={{margin: '20px 20px'}}>

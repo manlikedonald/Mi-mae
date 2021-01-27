@@ -292,3 +292,7 @@ a:hover{
 .dashboard {
   width: 15rem;
 }
+
+sup {
+  font-size:xx-small; vertical-align:super;
+}
